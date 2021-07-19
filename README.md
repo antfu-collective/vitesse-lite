@@ -38,9 +38,9 @@
 
 - ☁️ Deploy on Netlify, zero-config
 
-See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
 <br>
+
+See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 ## Pre-packed
 
