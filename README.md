@@ -3,7 +3,7 @@
 </p>
 
 <h6 align='center'>
-<a href="https://vitesse.netlify.app/">Live Demo</a>
+<a href="https://vitesse-lite.netlify.app/">Live Demo</a>
 </h6>
 
 <h5 align='center'>
@@ -47,7 +47,6 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 ### UI Frameworks
 
 - [Windi CSS](https://github.com/windicss/windicss) (On-demand [TailwindCSS](https://tailwindcss.com/)) - lighter and faster, with a bunch of additional features!
-  - [Windi CSS Typography](https://windicss.org/plugins/official/typography.html)
 
 ### Icons
 
