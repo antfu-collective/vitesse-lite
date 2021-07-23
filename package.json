@@ -16,6 +16,7 @@
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",
     "@iconify/json": "^1.1.378",
+    "@types/node": "^16.4.1",
     "@typescript-eslint/eslint-plugin": "^4.28.3",
     "@vitejs/plugin-vue": "^1.2.5",
     "@vue/compiler-sfc": "^3.1.5",
