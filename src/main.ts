@@ -1,3 +1,5 @@
+// register vue composition api globally
+import 'vue-global-api'
 import { createApp } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 import routes from 'virtual:generated-pages'
@@ -9,9 +11,6 @@ import 'virtual:windi-base.css'
 import 'virtual:windi-components.css'
 import './styles/main.css'
 import 'virtual:windi-utilities.css'
-
-// register vue composition api globally
-import 'vue-global-api'
 
 const app = createApp(App)
 const router = createRouter({
