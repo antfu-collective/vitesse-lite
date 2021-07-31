@@ -6,28 +6,28 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@vueuse/core": "^5.1.4",
+    "@vueuse/core": "^5.2.0",
     "@vueuse/head": "^0.6.0",
     "vue": "^3.1.5",
     "vue-demi": "^0.11.2",
-    "vue-global-api": "^0.2.4",
+    "vue-global-api": "^0.4.1",
     "vue-router": "^4.0.10"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.7.0",
-    "@iconify/json": "^1.1.379",
-    "@types/node": "^16.4.1",
-    "@typescript-eslint/eslint-plugin": "^4.28.4",
-    "@vitejs/plugin-vue": "^1.2.5",
+    "@iconify/json": "^1.1.381",
+    "@types/node": "^16.4.8",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@vitejs/plugin-vue": "^1.3.0",
     "@vue/compiler-sfc": "^3.1.5",
     "cross-env": "^7.0.3",
-    "eslint": "^7.31.0",
-    "pnpm": "^6.10.3",
+    "eslint": "^7.32.0",
+    "pnpm": "^6.11.5",
     "typescript": "^4.3.5",
-    "vite": "^2.4.3",
+    "vite": "^2.4.4",
     "vite-plugin-components": "^0.13.2",
     "vite-plugin-icons": "^0.6.5",
     "vite-plugin-pages": "^0.15.1",
-    "vite-plugin-windicss": "^1.2.5"
+    "vite-plugin-windicss": "^1.2.7"
   }
 }
