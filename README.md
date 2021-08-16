@@ -60,7 +60,6 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 - [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - WindiCSS support
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
-- [`@vueuse/head`](https://github.com/vueuse/head) - manipulate document head reactively
 - [`vue-global-api`](https://github.com/antfu/vue-global-api) - Use Vue Composition API globally
 
 ## Try it now!

@@ -7,7 +7,6 @@
   },
   "dependencies": {
     "@vueuse/core": "^6.0.0",
-    "@vueuse/head": "^0.6.0",
     "vue": "^3.2.2",
     "vue-demi": "^0.11.3",
     "vue-global-api": "^0.4.1",
