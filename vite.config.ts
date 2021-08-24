@@ -5,6 +5,7 @@ import Pages from 'vite-plugin-pages'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 import ViteComponents from 'vite-plugin-components'
 import WindiCSS from 'vite-plugin-windicss'
+import AutoImport from 'unplugin-auto-import/vite'
 
 export default defineConfig({
   resolve: {
@@ -17,6 +18,15 @@ export default defineConfig({
 
     // https://github.com/hannoeru/vite-plugin-pages
     Pages(),
+
+    // https://github.com/antfu/unplugin-auto-import
+    AutoImport({
+      imports: [
+        'vue',
+        'vue-router',
+        '@vueuse/core',
+      ],
+    }),
 
     // https://github.com/antfu/vite-plugin-components
     ViteComponents({
