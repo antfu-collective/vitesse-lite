@@ -2,8 +2,9 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
-import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
-import ViteComponents from 'vite-plugin-components'
+import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
+import Components from 'unplugin-vue-components/vite'
 import WindiCSS from 'vite-plugin-windicss'
 import AutoImport from 'unplugin-auto-import/vite'
 
@@ -29,22 +30,18 @@ export default defineConfig({
     }),
 
     // https://github.com/antfu/vite-plugin-components
-    ViteComponents({
-      // generate `components.d.ts` for ts support with Volar
-      globalComponentsDeclaration: true,
-
-      // auto import icons
-      customComponentResolvers: [
+    Components({
+      resolvers: [
+        // auto import icons
         // https://github.com/antfu/vite-plugin-icons
-        ViteIconsResolver({
+        IconsResolver({
           componentPrefix: '',
-          // enabledCollections: ['carbon']
         }),
       ],
     }),
 
     // https://github.com/antfu/vite-plugin-icons
-    ViteIcons(),
+    Icons(),
 
     // https://github.com/antfu/vite-plugin-windicss
     WindiCSS(),

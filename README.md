@@ -51,14 +51,14 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [`vite-plugin-icons`](https://github.com/antfu/vite-plugin-icons) - icons as Vue components
+- [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - using icons as components on-demand
 
 ### Plugins
 
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`vite-plugin-components`](https://github.com/antfu/vite-plugin-components) - components auto import
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
 - [`vite-plugin-windicss`](https://github.com/antfu/vite-plugin-windicss) - Windi CSS integration
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
