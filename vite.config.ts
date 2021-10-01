@@ -43,7 +43,9 @@ export default defineConfig({
     }),
 
     // https://github.com/antfu/vite-plugin-icons
-    Icons(),
+    Icons({
+      autoInstall: true,
+    }),
 
     // https://github.com/antfu/vite-plugin-windicss
     WindiCSS(),
