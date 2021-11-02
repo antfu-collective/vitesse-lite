@@ -4,6 +4,8 @@ specifiers:
   '@antfu/eslint-config': ^0.9.0
   '@iconify-json/carbon': ^1.0.3
   '@types/node': ^16.10.2
+  '@unocss/preset-icons': ^0.4.9
+  '@unocss/reset': ^0.4.9
   '@vitejs/plugin-vue': ^1.9.2
   '@vueuse/core': ^6.7.4
   cross-env: ^7.0.3
@@ -30,6 +32,8 @@ devDependencies:
   '@antfu/eslint-config': 0.9.0_eslint@8.1.0+typescript@4.4.4
   '@iconify-json/carbon': 1.0.8
   '@types/node': 16.11.6
+  '@unocss/preset-icons': 0.4.9
+  '@unocss/reset': 0.4.9
   '@vitejs/plugin-vue': 1.9.4_vite@2.6.13
   cross-env: 7.0.3
   eslint: 8.1.0
@@ -593,10 +597,22 @@ packages:
       '@unocss/core': 0.4.9
     dev: true
 
+  /@unocss/preset-icons/0.4.9:
+    resolution: {integrity: sha512-Bvkb6dfV4MwuVZQedUMpUXhXDMBpiD+mUCH1VH112FAKw2IEX3s/J/+w4pN5FIjygCvOUlR/vFTbtsxzocA2Lw==}
+    dependencies:
+      '@iconify/utils': 1.0.18
+      '@unocss/core': 0.4.9
+      local-pkg: 0.4.0
+    dev: true
+
   /@unocss/preset-uno/0.4.9:
     resolution: {integrity: sha512-K7s0bq8uadAqBGGSmnAdLXLFezFwV6P7hZ1AfgjgD90IHtadrVTAXvQgukjVzCT7+ncUjSY6T8HD71AOG8kq1w==}
     dependencies:
       '@unocss/core': 0.4.9
+    dev: true
+
+  /@unocss/reset/0.4.9:
+    resolution: {integrity: sha512-FO7PtnnQpDcHfFXei96h38ttpEqrD5MxPST3o/vROa9gZtDYvYy5rYYAjxdAoXVYiRtAcIGlWbQrsikVPDgjOw==}
     dev: true
 
   /@unocss/scope/0.4.9:
