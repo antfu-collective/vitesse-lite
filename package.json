@@ -12,12 +12,10 @@
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.10.0",
-    "@iconify-json/carbon": "^1.0.8",
-    "@types/node": "^16.11.6",
-    "@unocss/preset-icons": "^0.4.9",
-    "@unocss/reset": "^0.4.9",
-    "@vitejs/plugin-vue": "^1.9.4",
+    "@antfu/eslint-config": "^0.9.0",
+    "@iconify-json/carbon": "^1.0.3",
+    "@types/node": "^16.10.2",
+    "@vitejs/plugin-vue": "^1.9.2",
     "cross-env": "^7.0.3",
     "eslint": "^8.1.0",
     "pnpm": "^6.20.1",
