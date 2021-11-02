@@ -10,6 +10,7 @@ html.dark {
   background: #121212;
 }
 
+/* 
 .btn {
   @apply px-4 py-1 rounded inline-block
     bg-teal-600 text-white cursor-pointer
@@ -22,4 +23,4 @@ html.dark {
     opacity-75 transition duration-200 ease-in-out
     hover:opacity-100 hover:text-teal-600;
   font-size: 0.9em;
-}
+} */

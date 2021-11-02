@@ -16,17 +16,19 @@
     "@iconify-json/carbon": "^1.0.3",
     "@types/node": "^16.10.2",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@unocss/preset-icons": "^0.4.9",
+    "@unocss/reset": "^0.4.9",
     "@vitejs/plugin-vue": "^1.9.2",
     "@vue/compiler-sfc": "^3.2.19",
     "cross-env": "^7.0.3",
     "eslint": "^7.32.0",
     "pnpm": "^6.16.0",
     "typescript": "^4.4.3",
+    "unocss": "^0.4.9",
     "unplugin-auto-import": "^0.4.10",
     "unplugin-icons": "^0.12.3",
     "unplugin-vue-components": "^0.15.6",
     "vite": "^2.6.2",
-    "vite-plugin-pages": "^0.18.1",
-    "vite-plugin-windicss": "^1.4.9"
+    "vite-plugin-pages": "^0.18.1"
   }
 }

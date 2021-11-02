@@ -5,13 +5,11 @@ const router = useRouter()
 
 <template>
   <div>
-    <p class="text-4xl">
-      <carbon-pedestrian class="inline-block" />
-    </p>
+    <div i-carbon-pedestrian text-4xl inline-block />
     <p>
       Hi, {{ props.name }}
     </p>
-    <p class="text-sm opacity-50">
+    <p text-sm op50>
       <em>Dynamic route!</em>
     </p>
 
