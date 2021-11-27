@@ -3,28 +3,29 @@
   "scripts": {
     "dev": "vite --port 3333 --open",
     "build": "cross-env NODE_ENV=production vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint": "eslint . --ext=.ts,.vue"
   },
   "dependencies": {
-    "@vueuse/core": "^7.0.1",
-    "vue": "^3.2.22",
+    "@vueuse/core": "^7.1.2",
+    "vue": "^3.2.23",
     "vue-demi": "^0.12.1",
     "vue-router": "^4.0.12"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.10.0",
+    "@antfu/eslint-config": "^0.11.1",
     "@iconify-json/carbon": "^1.0.11",
     "@types/node": "^16.11.10",
-    "@unocss/preset-icons": "^0.12.4",
-    "@unocss/reset": "^0.12.4",
-    "@vitejs/plugin-vue": "^1.10.0",
+    "@unocss/preset-icons": "^0.12.12",
+    "@unocss/reset": "^0.12.12",
+    "@vitejs/plugin-vue": "^1.10.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.3.0",
-    "pnpm": "^6.23.1",
+    "pnpm": "^6.23.2",
     "typescript": "^4.5.2",
-    "unocss": "^0.12.4",
-    "unplugin-auto-import": "^0.4.16",
-    "unplugin-icons": "^0.12.18",
+    "unocss": "^0.12.12",
+    "unplugin-auto-import": "^0.4.19",
+    "unplugin-icons": "^0.12.20",
     "unplugin-vue-components": "^0.17.2",
     "vite": "^2.6.14",
     "vite-plugin-pages": "^0.18.2"
