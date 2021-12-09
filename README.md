@@ -26,9 +26,12 @@
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
+- ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
+
 - 🦾 TypeScript, of course
 
 - ☁️ Deploy on Netlify, zero-config
+
 
 <br>
 

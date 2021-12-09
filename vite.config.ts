@@ -25,6 +25,7 @@ export default defineConfig({
         'vue',
         'vue-router',
         '@vueuse/core',
+        'vitest',
       ],
       dts: true,
     }),
@@ -59,5 +60,9 @@ export default defineConfig({
     exclude: [
       'vue-demi',
     ],
+  },
+
+  test: {
+    dom: 'jsdom',
   },
 })
