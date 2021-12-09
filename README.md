@@ -12,14 +12,6 @@
 
 <br>
 
-## Dropped Features
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
-
 ## Features
 
 - ⚡️ [Vue 3](https://github.com/vuejs/vue-next), [Vite 2](https://github.com/vitejs/vite), [pnpm](https://pnpm.js.org/), [ESBuild](https://github.com/evanw/esbuild) - born with fastness
@@ -42,6 +34,15 @@
 
 See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
+
+## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
+
+- ~~i18n~~
+- ~~Layouts~~
+- ~~SSG~~
+- ~~PWA~~
+- ~~Markdown~~
+
 ## Pre-packed
 
 ### UI Frameworks
@@ -52,7 +53,6 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
 - [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
-- [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - using icons as components on-demand
 
 ### Plugins
 

@@ -2,13 +2,10 @@ import path from 'path'
 import { defineConfig } from 'vite'
 import Vue from '@vitejs/plugin-vue'
 import Pages from 'vite-plugin-pages'
-import Icons from 'unplugin-icons/vite'
-import IconsResolver from 'unplugin-icons/resolver'
 import Components from 'unplugin-vue-components/vite'
-import Unocss from 'unocss/vite'
-import { presetAttributify, presetUno } from 'unocss'
-import presetIcons from '@unocss/preset-icons'
 import AutoImport from 'unplugin-auto-import/vite'
+import { presetAttributify, presetUno, presetIcons } from 'unocss'
+import Unocss from 'unocss/vite'
 
 export default defineConfig({
   resolve: {
@@ -34,19 +31,7 @@ export default defineConfig({
 
     // https://github.com/antfu/vite-plugin-components
     Components({
-      resolvers: [
-        // auto import icons
-        // https://github.com/antfu/vite-plugin-icons
-        IconsResolver({
-          componentPrefix: '',
-        }),
-      ],
       dts: true,
-    }),
-
-    // https://github.com/antfu/vite-plugin-icons
-    Icons({
-      autoInstall: true,
     }),
 
     // https://github.com/antfu/unocss
@@ -64,12 +49,6 @@ export default defineConfig({
       ],
     }),
   ],
-
-  server: {
-    fs: {
-      strict: true,
-    },
-  },
 
   optimizeDeps: {
     include: [
