@@ -53,21 +53,8 @@ export default defineConfig({
     }),
   ],
 
-  optimizeDeps: {
-    include: [
-      'vue',
-      'vue-router',
-      '@vueuse/core',
-    ],
-    exclude: [
-      'vue-demi',
-    ],
-  },
-
+  // https://github.com/vitest-dev/vitest
   test: {
     environment: 'jsdom',
-    deps: {
-      inline: ['@vue', '@vueuse', 'vue-demi'],
-    },
   },
 })
