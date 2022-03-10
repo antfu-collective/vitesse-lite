@@ -3,8 +3,9 @@ import {
   presetAttributify,
   presetIcons,
   presetUno,
-  transformerDirectives,
-  transformerVariantGroup,
+  presetWebFonts,
+  // transformerDirectives,
+  // transformerVariantGroup,
 } from 'unocss'
 
 export default defineConfig({
@@ -19,9 +20,16 @@ export default defineConfig({
       scale: 1.2,
       warn: true,
     }),
+    presetWebFonts({
+      fonts: {
+        sans: 'DM Sans',
+        serif: 'DM Serif Display',
+        mono: 'DM Mono',
+      },
+    }),
   ],
-  transformers: [
-    transformerDirectives(),
-    transformerVariantGroup(),
-  ],
+  // transformers: [
+  //   transformerDirectives(),
+  //   transformerVariantGroup(),
+  // ],
 })
