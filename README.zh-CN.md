@@ -32,6 +32,8 @@
 
 - 🔥 使用 [新的 `<script setup>` 语法](https://github.com/vuejs/rfcs/pull/227)
 
+- ✅ 使用 [Vitest](http://vitest.dev/) 进行单元和组件测试
+
 - 🦾 TypeScript, 当然
 
 - ☁️ 零配置部署 Netlify
