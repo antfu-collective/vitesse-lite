@@ -13,7 +13,7 @@ specifiers:
   pnpm: ^6.32.3
   typescript: ^4.6.2
   unocss: ^0.27.6
-  unplugin-auto-import: ^0.6.2
+  unplugin-auto-import: ^0.6.4
   unplugin-vue-components: ^0.17.21
   vite: ^2.8.6
   vite-plugin-pages: ^0.21.4
@@ -39,7 +39,7 @@ devDependencies:
   pnpm: 6.32.3
   typescript: 4.6.2
   unocss: 0.27.6_jsdom@19.0.0
-  unplugin-auto-import: 0.6.2_@vueuse+core@8.0.0+vite@2.8.6
+  unplugin-auto-import: 0.6.4_@vueuse+core@8.0.0+vite@2.8.6
   unplugin-vue-components: 0.17.21_vite@2.8.6+vue@3.2.31
   vite: 2.8.6
   vite-plugin-pages: 0.21.4_vite@2.8.6
@@ -293,6 +293,14 @@ packages:
 
   /@rollup/pluginutils/4.1.2:
     resolution: {integrity: sha512-ROn4qvkxP9SyPeHaf7uQC/GPFY6L/OWy9+bd9AwcjOAWQwxRscoEyAUD8qCY5o5iL4jqQwoLk2kaTKJPb/HwzQ==}
+    engines: {node: '>= 8.0.0'}
+    dependencies:
+      estree-walker: 2.0.2
+      picomatch: 2.3.0
+    dev: true
+
+  /@rollup/pluginutils/4.2.0:
+    resolution: {integrity: sha512-2WUyJNRkyH5p487pGnn4tWAsxhEFKN/pT8CMgHshd5H+IXkOnKvKZwsz5ZWz+YCXkleZRAU5kwbfgF8CPfDRqA==}
     engines: {node: '>= 8.0.0'}
     dependencies:
       estree-walker: 2.0.2
@@ -3729,8 +3737,8 @@ packages:
       - supports-color
     dev: true
 
-  /unplugin-auto-import/0.6.2_@vueuse+core@8.0.0+vite@2.8.6:
-    resolution: {integrity: sha512-S9TbxRiMe7FmEH4wy0PF+YrpLrLjahioSuNoxuW/FM/PEWEEm7Uw6NDExvPaWHw2BTJL5h6luD7R2spTT/7GbQ==}
+  /unplugin-auto-import/0.6.4_@vueuse+core@8.0.0+vite@2.8.6:
+    resolution: {integrity: sha512-gkjVKnugRCIh1JtwZhn8bdvdW8RW17WoCEJgJXJ9sGMsKrgP9xbaNMLULrmtrfxyGOabm42XXWoaR12EzdcVNA==}
     engines: {node: '>=14'}
     peerDependencies:
       '@vueuse/core': '*'
@@ -3739,12 +3747,12 @@ packages:
         optional: true
     dependencies:
       '@antfu/utils': 0.5.0
-      '@rollup/pluginutils': 4.1.2
+      '@rollup/pluginutils': 4.2.0
       '@vueuse/core': 8.0.0_vue@3.2.31
       local-pkg: 0.4.1
-      magic-string: 0.25.7
+      magic-string: 0.26.1
       resolve: 1.22.0
-      unplugin: 0.3.2_vite@2.8.6
+      unplugin: 0.4.0_vite@2.8.6
     transitivePeerDependencies:
       - esbuild
       - rollup
@@ -3805,8 +3813,8 @@ packages:
       webpack-virtual-modules: 0.4.3
     dev: true
 
-  /unplugin/0.3.2_vite@2.8.6:
-    resolution: {integrity: sha512-5d0DMYNKZU+S9eZUiBfw6Co32eRg8myUgBPoWSqG/wDFCUE/WznfSsJnZWi1P9l69x4uLJqt2qVq1xW/AsXFrw==}
+  /unplugin/0.4.0_vite@2.8.6:
+    resolution: {integrity: sha512-4ScITEmzlz1iZW3tkz+3L1V5k/xMQ6kjgm4lEXKxH0ozd8/OUWfiSA7RMRyrawsvq/t50JIzPpp1UyuSL/AXkA==}
     peerDependencies:
       esbuild: '>=0.13'
       rollup: ^2.50.0
@@ -3822,6 +3830,7 @@ packages:
       webpack:
         optional: true
     dependencies:
+      chokidar: 3.5.3
       vite: 2.8.6
       webpack-virtual-modules: 0.4.3
     dev: true
