@@ -4,6 +4,12 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "vue",
+    "html"
+  ],
   "files.associations": {
     "*.css": "postcss"
   }
