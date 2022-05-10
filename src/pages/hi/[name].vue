@@ -1,8 +1,3 @@
-<script setup lang="ts">
-const props = defineProps<{ name: string }>()
-const router = useRouter()
-</script>
-
 <template>
   <div>
     <div i-carbon-pedestrian text-4xl inline-block />
@@ -23,3 +18,8 @@ const router = useRouter()
     </div>
   </div>
 </template>
+
+<script setup lang="ts">
+  const props = defineProps<{ name: string }>()
+  const router = useRouter()
+</script>
