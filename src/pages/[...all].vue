@@ -1,7 +1,7 @@
 <template>
   <div s-10 bg-box class="tttt-2" w-300px h-300px />
   <div>
-    Not Found
+    路由没找到，如果设置页面重定向，不会跳转到这个页面~
   </div>
 </template>
 
