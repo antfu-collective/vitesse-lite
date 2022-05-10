@@ -11,7 +11,7 @@ import {
 export default defineConfig({
   // 自定义类名
   rules: [
-    ['bg-box', { color: '#ff6700' }],
+    ['bg-box', { background: '#ff6700' }],
     // 此处报错 d / 4 不用理会
     [/^s-(\d+)$/, ([, d]) => ({ margin: `${d / 4}rem` })],
     [/^p-(\d+)$/, match => ({ padding: `${match[1] / 4}rem` })]
