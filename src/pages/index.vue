@@ -29,6 +29,7 @@
 
     <div>
       <button
+        rounded="1/2"
         class="m-3 text-sm btn"
         :disabled="!name"
         @click="go"
