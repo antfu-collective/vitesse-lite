@@ -32,9 +32,9 @@ export default defineConfig({
       ],
       dts: true,
       dirs: [
-        './src/composables'
+        './src/composables',
       ],
-      vueTemplate: true
+      vueTemplate: true,
     }),
 
     // https://github.com/antfu/vite-plugin-components
