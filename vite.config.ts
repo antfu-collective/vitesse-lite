@@ -105,7 +105,9 @@ export default defineConfig({
         'vue-router',
         '@vueuse/core'
       ],
-      dts: true
+      dts: true,
+      dirs: ['./src/composables'],
+      vueTemplate: true
     }),
 
     // https://github.com/antfu/vite-plugin-components
