@@ -5,6 +5,7 @@
     "antfu.unocss",
     "antfu.goto-alias",
     "vue.volar",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "EditorConfig.EditorConfig"
   ]
 }
