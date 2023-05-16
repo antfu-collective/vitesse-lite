@@ -17,9 +17,14 @@ export default defineConfig({
   },
   plugins: [
     VueMacros({
+      defineOptions: false,
+      defineModels: false,
       plugins: {
         vue: Vue({
-          reactivityTransform: true,
+          script: {
+            propsDestructure: true,
+            defineModel: true,
+          },
         }),
       },
     }),
@@ -31,7 +36,6 @@ export default defineConfig({
     AutoImport({
       imports: [
         'vue',
-        'vue/macros',
         'vue-router',
         '@vueuse/core',
       ],
