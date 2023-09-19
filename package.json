@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "pnpm@8.7.5",
+  "packageManager": "pnpm@8.7.6",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -17,18 +17,18 @@
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.42.0",
+    "@antfu/eslint-config": "^0.43.0",
     "@iconify-json/carbon": "^1.1.21",
-    "@types/node": "^20.6.0",
+    "@types/node": "^20.6.2",
     "@unocss/eslint-config": "^0.55.7",
-    "@unocss/reset": "^0.55.7",
+    "@unocss/reset": "^0.56.0",
     "@vitejs/plugin-vue": "^4.3.4",
     "@vue-macros/volar": "^0.14.3",
     "@vue/test-utils": "^2.4.1",
     "eslint": "^8.49.0",
     "jsdom": "^22.1.0",
     "lint-staged": "^14.0.1",
-    "pnpm": "^8.7.5",
+    "pnpm": "^8.7.6",
     "simple-git-hooks": "^2.9.0",
     "taze": "^0.11.2",
     "typescript": "^5.2.2",
