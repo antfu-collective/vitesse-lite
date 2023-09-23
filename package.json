@@ -15,10 +15,10 @@
   "dependencies": {
     "@vueuse/core": "^10.4.1",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^1.0.0-beta.1",
+    "@antfu/eslint-config": "^1.0.0-beta.6",
     "@iconify-json/carbon": "^1.1.21",
     "@types/node": "^20.6.3",
     "@unocss/eslint-config": "^0.56.1",
@@ -27,7 +27,7 @@
     "@vitejs/plugin-vue": "^4.3.4",
     "@vue-macros/volar": "^0.14.3",
     "@vue/test-utils": "^2.4.1",
-    "eslint": "^8.49.0",
+    "eslint": "^8.50.0",
     "eslint-define-config": "^1.23.0",
     "jsdom": "^22.1.0",
     "lint-staged": "^14.0.1",
