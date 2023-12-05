@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
-
 const params = useRoute('/hi/[name]').params
 const router = useRouter()
 </script>
