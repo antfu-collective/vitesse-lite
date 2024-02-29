@@ -12,7 +12,8 @@
     "resolveJsonModule": true,
     "types": [
       "vite/client",
-      "unplugin-vue-macros/macros-global"
+      "unplugin-vue-macros/macros-global",
+      "unplugin-vue-router/client"
     ],
     "allowJs": true,
     "strict": true,
@@ -22,5 +23,9 @@
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
-  "exclude": ["dist", "node_modules", "eslint.config.js"]
+  "exclude": [
+    "dist",
+    "node_modules",
+    "eslint.config.js"
+  ]
 }
