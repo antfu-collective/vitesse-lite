@@ -66,8 +66,9 @@ See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
   - [`unplugin-vue-router`](https://github.com/posva/unplugin-vue-router) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
 - [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
-- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue.
-- [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
+- [`unplugin-vue-macros`](https://github.com/sxzz/unplugin-vue-macros) - Explore and extend more macros and syntax sugar to Vue
+- [VueUse](https://github.com/vueuse/vueuse) - collection of useful composition APIs
+- [`vite-plugin-vue-devtools`](https://github.com/vuejs/devtools-next) - Designed to enhance the Vue developer experience
 
 ## Try it now!
 
