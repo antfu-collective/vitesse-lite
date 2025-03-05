@@ -58,9 +58,6 @@ importers:
       lint-staged:
         specifier: ^15.4.3
         version: 15.4.3
-      pnpm:
-        specifier: ^10.5.2
-        version: 10.5.2
       simple-git-hooks:
         specifier: ^2.11.1
         version: 2.11.1
@@ -2553,11 +2550,6 @@ packages:
   pluralize@8.0.0:
     resolution: {integrity: sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==}
     engines: {node: '>=4'}
-
-  pnpm@10.5.2:
-    resolution: {integrity: sha512-2p3CjNP/QNBZIYgjWrJdMgKt2KIHr77caCIg5KACn/v/RWIQK55uRrTj+ei9U+bQXeSFRLDFfUsBeeIsdtEZmw==}
-    engines: {node: '>=18.12'}
-    hasBin: true
 
   postcss-selector-parser@6.0.15:
     resolution: {integrity: sha512-rEYkQOMUCEMhsKbK66tbEU9QVIxbhN18YiniAwA7XQYTVBqrBy+P2p5JcdqsHgKM2zWylp8d7J6eszocfds5Sw==}
@@ -5986,8 +5978,6 @@ snapshots:
       pathe: 2.0.3
 
   pluralize@8.0.0: {}
-
-  pnpm@10.5.2: {}
 
   postcss-selector-parser@6.0.15:
     dependencies:
