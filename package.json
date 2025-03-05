@@ -1,7 +1,7 @@
 {
   "type": "module",
   "private": true,
-  "packageManager": "pnpm@10.4.1",
+  "packageManager": "pnpm@10.5.2",
   "scripts": {
     "build": "vite build",
     "dev": "vite --port 3333 --open",
@@ -13,40 +13,44 @@
     "postinstall": "npx simple-git-hooks"
   },
   "dependencies": {
-    "@vueuse/core": "^12.7.0",
+    "@vueuse/core": "^12.8.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.3.0",
-    "@iconify-json/carbon": "^1.2.7",
-    "@types/node": "^22.13.4",
-    "@unocss/eslint-config": "^66.0.0",
-    "@unocss/eslint-plugin": "^66.0.0",
-    "@unocss/reset": "^66.0.0",
+    "@antfu/eslint-config": "^4.5.1",
+    "@iconify-json/carbon": "^1.2.8",
+    "@types/node": "^22.13.9",
+    "@unocss/eslint-config": "^66.1.0-beta.3",
+    "@unocss/eslint-plugin": "^66.1.0-beta.3",
     "@vitejs/plugin-vue": "^5.2.1",
     "@vue-macros/volar": "^0.30.14",
     "@vue/test-utils": "^2.4.6",
-    "eslint": "^9.20.1",
+    "eslint": "^9.21.0",
     "eslint-plugin-format": "^1.0.1",
     "jsdom": "^26.0.0",
     "lint-staged": "^15.4.3",
-    "pnpm": "^10.4.1",
     "simple-git-hooks": "^2.11.1",
     "taze": "^18.6.0",
-    "typescript": "^5.7.3",
-    "unocss": "^66.0.0",
-    "unplugin-auto-import": "^19.1.0",
-    "unplugin-vue-components": "^28.2.0",
-    "unplugin-vue-macros": "^2.14.2",
-    "unplugin-vue-router": "^0.11.2",
-    "vite": "^6.1.0",
-    "vitest": "^3.0.5",
-    "vue-tsc": "^2.2.2"
+    "typescript": "^5.8.2",
+    "unocss": "^66.1.0-beta.3",
+    "unplugin-auto-import": "^19.1.1",
+    "unplugin-vue-components": "^28.4.1",
+    "unplugin-vue-macros": "^2.14.5",
+    "unplugin-vue-router": "^0.12.0",
+    "vite": "^6.2.0",
+    "vitest": "^3.0.7",
+    "vue-tsc": "^2.2.8"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "simple-git-hooks"
+    ]
   },
   "resolutions": {
     "unplugin": "^2.2.0",
-    "vite": "^6.1.0"
+    "vite": "^6.2.0"
   },
   "simple-git-hooks": {
     "pre-commit": "pnpm lint-staged"
