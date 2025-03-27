@@ -4,6 +4,83 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+catalogs:
+  build:
+    '@iconify-json/carbon':
+      specifier: ^1.2.8
+      version: 1.2.8
+    '@vitejs/plugin-vue':
+      specifier: ^5.2.3
+      version: 5.2.3
+    jsdom:
+      specifier: ^26.0.0
+      version: 26.0.0
+    unocss:
+      specifier: ^66.1.0-beta.7
+      version: 66.1.0-beta.7
+    unplugin-auto-import:
+      specifier: ^19.1.2
+      version: 19.1.2
+    unplugin-vue-components:
+      specifier: ^28.4.1
+      version: 28.4.1
+    unplugin-vue-macros:
+      specifier: ^2.14.5
+      version: 2.14.5
+    unplugin-vue-router:
+      specifier: ^0.12.0
+      version: 0.12.0
+  dev:
+    '@antfu/eslint-config':
+      specifier: ^4.11.0
+      version: 4.11.0
+    '@types/node':
+      specifier: ^22.13.14
+      version: 22.13.14
+    '@unocss/eslint-plugin':
+      specifier: ^66.1.0-beta.7
+      version: 66.1.0-beta.7
+    '@vue-macros/volar':
+      specifier: ^3.0.0-beta.7
+      version: 3.0.0-beta.7
+    '@vue/test-utils':
+      specifier: ^2.4.6
+      version: 2.4.6
+    eslint:
+      specifier: ^9.23.0
+      version: 9.23.0
+    eslint-plugin-format:
+      specifier: ^1.0.1
+      version: 1.0.1
+    lint-staged:
+      specifier: ^15.5.0
+      version: 15.5.0
+    simple-git-hooks:
+      specifier: ^2.12.1
+      version: 2.12.1
+    taze:
+      specifier: ^19.0.2
+      version: 19.0.2
+    typescript:
+      specifier: ^5.8.2
+      version: 5.8.2
+    vitest:
+      specifier: ^3.0.9
+      version: 3.0.9
+    vue-tsc:
+      specifier: ^2.2.8
+      version: 2.2.8
+  frontend:
+    '@vueuse/core':
+      specifier: ^13.0.0
+      version: 13.0.0
+    vue:
+      specifier: ^3.5.13
+      version: 3.5.13
+    vue-router:
+      specifier: ^4.5.0
+      version: 4.5.0
+
 overrides:
   unplugin: ^2.2.2
   vite: ^6.2.3
@@ -13,83 +90,80 @@ importers:
   .:
     dependencies:
       '@vueuse/core':
-        specifier: ^13.0.0
+        specifier: catalog:frontend
         version: 13.0.0(vue@3.5.13(typescript@5.8.2))
       vue:
-        specifier: ^3.5.13
+        specifier: catalog:frontend
         version: 3.5.13(typescript@5.8.2)
       vue-router:
-        specifier: ^4.5.0
+        specifier: catalog:frontend
         version: 4.5.0(vue@3.5.13(typescript@5.8.2))
     devDependencies:
       '@antfu/eslint-config':
-        specifier: ^4.11.0
+        specifier: catalog:dev
         version: 4.11.0(@typescript-eslint/utils@8.28.0(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2))(@unocss/eslint-plugin@66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2))(@vue/compiler-sfc@3.5.13)(eslint-plugin-format@1.0.1(eslint@9.23.0(jiti@2.4.2)))(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)(vitest@3.0.9(@types/debug@4.1.12)(@types/node@22.13.14)(jiti@2.4.2)(jsdom@26.0.0)(tsx@4.19.2)(yaml@2.7.0))
       '@iconify-json/carbon':
-        specifier: ^1.2.8
+        specifier: catalog:build
         version: 1.2.8
       '@types/node':
-        specifier: ^22.13.14
+        specifier: catalog:dev
         version: 22.13.14
-      '@unocss/eslint-config':
-        specifier: ^66.1.0-beta.7
-        version: 66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       '@unocss/eslint-plugin':
-        specifier: ^66.1.0-beta.7
+        specifier: catalog:dev
         version: 66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
       '@vitejs/plugin-vue':
-        specifier: ^5.2.3
+        specifier: catalog:build
         version: 5.2.3(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       '@vue-macros/volar':
-        specifier: ^3.0.0-beta.7
+        specifier: catalog:dev
         version: 3.0.0-beta.7(typescript@5.8.2)(vue-tsc@2.2.8(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
       '@vue/test-utils':
-        specifier: ^2.4.6
+        specifier: catalog:dev
         version: 2.4.6
       eslint:
-        specifier: ^9.23.0
+        specifier: catalog:dev
         version: 9.23.0(jiti@2.4.2)
       eslint-plugin-format:
-        specifier: ^1.0.1
+        specifier: catalog:dev
         version: 1.0.1(eslint@9.23.0(jiti@2.4.2))
       jsdom:
-        specifier: ^26.0.0
+        specifier: catalog:build
         version: 26.0.0
       lint-staged:
-        specifier: ^15.5.0
+        specifier: catalog:dev
         version: 15.5.0
       simple-git-hooks:
-        specifier: ^2.12.1
+        specifier: catalog:dev
         version: 2.12.1
       taze:
-        specifier: ^19.0.2
+        specifier: catalog:dev
         version: 19.0.2
       typescript:
-        specifier: ^5.8.2
+        specifier: catalog:dev
         version: 5.8.2
       unocss:
-        specifier: ^66.1.0-beta.7
+        specifier: catalog:build
         version: 66.1.0-beta.7(postcss@8.5.3)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0))(vue@3.5.13(typescript@5.8.2))
       unplugin-auto-import:
-        specifier: ^19.1.2
+        specifier: catalog:build
         version: 19.1.2(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2)))
       unplugin-vue-components:
-        specifier: ^28.4.1
+        specifier: catalog:build
         version: 28.4.1(@babel/parser@7.26.9)(vue@3.5.13(typescript@5.8.2))
       unplugin-vue-macros:
-        specifier: ^2.14.5
+        specifier: catalog:build
         version: 2.14.5(@vueuse/core@13.0.0(vue@3.5.13(typescript@5.8.2)))(esbuild@0.25.0)(rollup@4.34.8)(typescript@5.8.2)(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0))(vue-tsc@2.2.8(typescript@5.8.2))(vue@3.5.13(typescript@5.8.2))
       unplugin-vue-router:
-        specifier: ^0.12.0
+        specifier: catalog:build
         version: 0.12.0(vue-router@4.5.0(vue@3.5.13(typescript@5.8.2)))(vue@3.5.13(typescript@5.8.2))
       vite:
         specifier: ^6.2.3
         version: 6.2.3(@types/node@22.13.14)(jiti@2.4.2)(tsx@4.19.2)(yaml@2.7.0)
       vitest:
-        specifier: ^3.0.9
+        specifier: catalog:dev
         version: 3.0.9(@types/debug@4.1.12)(@types/node@22.13.14)(jiti@2.4.2)(jsdom@26.0.0)(tsx@4.19.2)(yaml@2.7.0)
       vue-tsc:
-        specifier: ^2.2.8
+        specifier: catalog:dev
         version: 2.2.8(typescript@5.8.2)
 
 packages:
@@ -938,10 +1012,6 @@ packages:
 
   '@unocss/core@66.1.0-beta.7':
     resolution: {integrity: sha512-l1/r+Jd9TbsRqR/geEdIV/Erzvs26GitTtMVsGcJfuaK1/WWOLtbSHRUDQAB/UpcOOWvuNuAv4UWsXX9Z0DFmw==}
-
-  '@unocss/eslint-config@66.1.0-beta.7':
-    resolution: {integrity: sha512-Gupx2hyC/QICvdZTdxc0YPT7Z/8hC1r+JnEaJGtEoLIpR1vkGtkI5aj8OQ0U6DWX8+stKAWu3jx6sFzGvuTN8w==}
-    engines: {node: '>=14'}
 
   '@unocss/eslint-plugin@66.1.0-beta.7':
     resolution: {integrity: sha512-5dT78YCVSqUXJSKR6C3ekuWMbT5y1nchyFmFRmrMcTYpyesIhQGjCbMilXR09p1fkD35ODPAcdBwhnuB7nQd6Q==}
@@ -4037,14 +4107,6 @@ snapshots:
       unconfig: 7.3.1
 
   '@unocss/core@66.1.0-beta.7': {}
-
-  '@unocss/eslint-config@66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)':
-    dependencies:
-      '@unocss/eslint-plugin': 66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)
-    transitivePeerDependencies:
-      - eslint
-      - supports-color
-      - typescript
 
   '@unocss/eslint-plugin@66.1.0-beta.7(eslint@9.23.0(jiti@2.4.2))(typescript@5.8.2)':
     dependencies:
