@@ -1,33 +1,33 @@
 packages: []
 catalogs:
   build:
-    '@iconify-json/carbon': ^1.2.8
-    '@vitejs/plugin-vue': ^5.2.3
+    '@iconify-json/carbon': ^1.2.9
+    '@vitejs/plugin-vue': ^5.2.4
     jsdom: ^26.1.0
-    unocss: ^66.1.0
-    unplugin: ^2.3.2
-    unplugin-auto-import: ^19.1.2
-    unplugin-vue-components: ^28.5.0
+    unocss: ^66.1.3
+    unplugin: ^2.3.5
+    unplugin-auto-import: ^19.3.0
+    unplugin-vue-components: ^28.7.0
     unplugin-vue-macros: ^2.14.5
     unplugin-vue-router: ^0.12.0
     vite: ^6.3.5
   dev:
-    '@antfu/eslint-config': ^4.12.0
-    '@types/node': ^22.15.11
-    '@unocss/eslint-plugin': ^66.1.0
-    '@vue-macros/volar': ^3.0.0-beta.10
+    '@antfu/eslint-config': ^4.13.3
+    '@types/node': ^22.15.30
+    '@unocss/eslint-plugin': ^66.1.3
+    '@vue-macros/volar': ^3.0.0-beta.14
     '@vue/test-utils': ^2.4.6
-    eslint: ^9.26.0
+    eslint: ^9.28.0
     eslint-plugin-format: ^1.0.1
-    lint-staged: ^15.5.1
+    lint-staged: ^16.1.0
     simple-git-hooks: ^2.13.0
-    taze: ^19.0.4
+    taze: ^19.1.0
     typescript: ^5.8.3
-    vitest: ^3.1.3
+    vitest: ^3.2.2
     vue-tsc: ^2.2.10
   frontend:
-    '@vueuse/core': ^13.1.0
-    vue: ^3.5.13
+    '@vueuse/core': ^13.3.0
+    vue: ^3.5.16
     vue-router: ^4.5.1
 onlyBuiltDependencies:
   - esbuild
