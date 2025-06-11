@@ -4,7 +4,7 @@ catalogs:
     '@iconify-json/carbon': ^1.2.9
     '@vitejs/plugin-vue': ^5.2.4
     jsdom: ^26.1.0
-    unocss: ^66.1.4
+    unocss: ^66.2.0
     unplugin: ^2.3.5
     unplugin-auto-import: ^19.3.0
     unplugin-vue-components: ^28.7.0
@@ -13,8 +13,8 @@ catalogs:
     vite: ^6.3.5
   dev:
     '@antfu/eslint-config': ^4.14.1
-    '@types/node': ^22.15.30
-    '@unocss/eslint-plugin': ^66.1.4
+    '@types/node': ^22.15.31
+    '@unocss/eslint-plugin': ^66.2.0
     '@vue-macros/volar': ^3.0.0-beta.14
     '@vue/test-utils': ^2.4.6
     eslint: ^9.28.0
@@ -23,7 +23,7 @@ catalogs:
     simple-git-hooks: ^2.13.0
     taze: ^19.1.0
     typescript: ^5.8.3
-    vitest: ^3.2.2
+    vitest: ^3.2.3
     vue-tsc: ^2.2.10
   frontend:
     '@vueuse/core': ^13.3.0
