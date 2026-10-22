@@ -83,3 +83,9 @@ npx degit antfu-collective/vitesse-lite my-vitesse-app
 cd my-vitesse-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
+
+### Deploy on Wasmer
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=antfu-collective%2Fvitesse-lite)
+
+[Wasmer Edge](https://docs.wasmer.io/edge/) is a cloud platform for hosting websites and applications. The included `Anybuild` configuration runs `pnpm build`, serves `dist`, and sends client-side routes to `index.html`. The button opens the public repository's import page; review the build settings before deploying. To publish a customized app and redeploy changes, create your own repository from this template and import that repository instead.
